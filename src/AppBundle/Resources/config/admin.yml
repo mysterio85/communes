@@ -1,0 +1,9 @@
+services:
+    sonata.admin.region:
+        class: AppBundle\Admin\RegionPost
+        tags:
+            - {name:sonata.admin, manager_type: orm, group: "Region", label: "Region"}
+        arguments:
+            - AppBundle\Entity\Region
+        calls:
+            - [setTranslationDomain, [AppBundle]]

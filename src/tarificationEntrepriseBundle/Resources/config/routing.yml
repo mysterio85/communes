@@ -1,0 +1,11 @@
+cm_atarificateur_entreprise_homepage:
+    path:     /mutuelle-entreprise
+    defaults: { _controller: tarificationEntrepriseBundle:Default:index }
+
+cm_atarificateur_entreprise_tarif:
+    path:     /mutuelle-entreprise/tarif/chargement
+    defaults: { _controller: tarificationEntrepriseBundle:Default:index }
+
+cm_atarificateur_entreprise_tarif_chargement:
+    path:     /mutuelle-entreprise/tarif/chargement
+    defaults: { _controller: tarificationEntrepriseBundle:Default:index }

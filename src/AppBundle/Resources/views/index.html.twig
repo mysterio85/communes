@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+{% block frontJsHead %}
+    <script type="text/javascript" src="{{ asset('bundles/app/js/pace.min.js') }}" data-pace-options='{ "ajax": false }'></script>
+    <script type="text/javascript" src="{{ asset('bundles/app/js/page-loading.js') }}"></script>
+{% endblock %}
+{% block slideshow %}
+    {% include 'AppBundle:accueil:slideshow.html.twig' %}
+{% endblock %}
+{% block body %}
+    {% include 'AppBundle:accueil:search_form.html.twig' %}
+{% endblock %}

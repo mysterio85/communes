@@ -1,0 +1,4 @@
+services:
+#    tarification_entreprise.example:
+#        class: tarificationEntrepriseBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
